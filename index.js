@@ -14,6 +14,10 @@ let wind = window.location
 const one = document.getElementById("sectionone");
 const two = document.getElementById("sectiontwo");
 
+// one.style.transition = "5s";
+// two.style.transition = "5s";
+
+
 window.onload = () => {
   two.style.display = "none";
 };
@@ -27,3 +31,4 @@ index.addEventListener("click", () => {
 two.style.display = "none";
 one.style.display = "block";
   });
+
