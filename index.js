@@ -3,19 +3,12 @@ const startups = document.getElementById('startups');
 const index = document.getElementById('index');
 let wind = window.location
 
-// startups.addEventListener("click", () => {
-//   wind.href = "file:///Users/victorgardrinier/code/vgardrinier/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Advanced-selectors/profile/startups.html"
-//   });
 
-// index.addEventListener("click", () =>  {
-//   wind.href = "file:///Users/victorgardrinier/code/vgardrinier/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Advanced-selectors/profile/index.html"
-// });
 
 const one = document.getElementById("sectionone");
 const two = document.getElementById("sectiontwo");
 
-// one.style.transition = "5s";
-// two.style.transition = "5s";
+
 
 
 window.onload = () => {
@@ -31,4 +24,10 @@ index.addEventListener("click", () => {
 two.style.display = "none";
 one.style.display = "block";
   });
+
+
+// if (window.width < 1200) {
+//   console.log("yesss");
+//     document.getElementByClassName("video").style.display = 'none';
+// }
 
