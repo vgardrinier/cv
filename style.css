@@ -197,3 +197,11 @@ td {
 .fa-briefcase:before, .fa-pencil-square:before, .fa-user-circle:before {
   color: white;
 }
+
+.role {
+  font-weight: bold;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+
+}
